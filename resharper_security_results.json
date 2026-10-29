@@ -1,0 +1,655 @@
+{
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.6.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "CheckNamespace",
+          "ruleIndex": 0,
+          "level": "warning",
+          "message": {
+            "text": "Namespace does not correspond to file location, must be: 'teamscale_test'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Program.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 11,
+                  "endLine": 1,
+                  "endColumn": 24,
+                  "charOffset": 10,
+                  "charLength": 13
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "6BB1812C9197A72A080916CE0C89B912CD0321B36DC56ECA26A1AD9C20D3D78B"
+          },
+          "properties": {
+            "tags": ["C#",".NET 10.0"]
+          }
+        },
+        {
+          "ruleId": "CheckNamespace",
+          "ruleIndex": 0,
+          "level": "warning",
+          "message": {
+            "text": "Namespace does not correspond to file location, must be: 'teamscale_test'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "SecurityTest.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 11,
+                  "endLine": 1,
+                  "endColumn": 24,
+                  "charOffset": 10,
+                  "charLength": 13
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "6BB1812C9197A72A080916CE0C89B912CD0321B36DC56ECA26A1AD9C20D3D78B"
+          },
+          "properties": {
+            "tags": ["C#",".NET 10.0"]
+          }
+        },
+        {
+          "ruleId": "RedundantBoolCompare",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Comparison with true is redundant"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Program.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 17,
+                  "endLine": 9,
+                  "endColumn": 24,
+                  "charOffset": 123,
+                  "charLength": 7
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "FBC85941B1C4E19D42FBE7BACB81B8C38D522053427443B49C9D1FD673C4861B"
+          },
+          "properties": {
+            "tags": ["C#",".NET 10.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 2,
+          "level": "note",
+          "message": {
+            "text": "Method 'Run' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "SecurityTest.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 23,
+                  "endLine": 5,
+                  "endColumn": 26,
+                  "charOffset": 85,
+                  "charLength": 3
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "5BE02B79525D7422C4FCD889CF46B4D10F8E3DC0DA873B2D7869C752397FFA7B"
+          },
+          "properties": {
+            "tags": ["C#",".NET 10.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Local",
+          "ruleIndex": 3,
+          "level": "warning",
+          "message": {
+            "text": "Method 'UnusedHelper' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Program.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 22,
+                  "endLine": 13,
+                  "endColumn": 34,
+                  "charOffset": 197,
+                  "charLength": 12
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "D6980AD7BECAAA5D78ED6A6AC3B4E2C370B73191BA9337E59543A9E06E5AAA2C"
+          },
+          "properties": {
+            "tags": ["C#",".NET 10.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedType.Global",
+          "ruleIndex": 4,
+          "level": "note",
+          "message": {
+            "text": "Class 'SecurityTest' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "SecurityTest.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 23,
+                  "endLine": 3,
+                  "endColumn": 35,
+                  "charOffset": 48,
+                  "charLength": 12
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "0D453DD749F51C110E6EA84FE92120233B310C55A5CC0D4C6BF5CBE047EDBAF0"
+          },
+          "properties": {
+            "tags": ["C#",".NET 10.0"]
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "InspectCode",
+          "organization": "JetBrains, Inc",
+          "fullName": "JetBrains Inspect Code 2025.3.1",
+          "semanticVersion": "253.0.20251217.183344",
+          "informationUri": "http://www.jetbrains.com/resharper/features/command-line.html",
+          "rules": [
+            {
+              "id": "CheckNamespace",
+              "fullDescription": {
+                "text": "Namespace in file does not have a form of 'project Default Namespace plus folder names in the path to the file'. You can configure which folders form the namespace on the folder's Properties page."
+              },
+              "help": {
+                "text": "https://www.jetbrains.com/help/resharper/CheckNamespace.html"
+              },
+              "shortDescription": {
+                "text": "Namespace does not correspond to file location"
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              },
+              "helpUri": "https://www.jetbrains.com/help/resharper/CheckNamespace.html",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP.ConstraintViolation",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "VBASIC.ConstraintViolation",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "RedundantBoolCompare",
+              "fullDescription": {
+                "text": "Comparison of a boolean value with 'true' or 'false' constant"
+              },
+              "shortDescription": {
+                "text": "Redundant boolean comparison"
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              },
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP.CodeRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "UnusedMember.Global",
+              "fullDescription": {
+                "text": "Type member is never used"
+              },
+              "help": {
+                "text": "https://www.jetbrains.com/help/resharper/UnusedMember.Global.html"
+              },
+              "shortDescription": {
+                "text": "Type member is never used: Non-private accessibility"
+              },
+              "defaultConfiguration": {
+                "level": "note"
+              },
+              "helpUri": "https://www.jetbrains.com/help/resharper/UnusedMember.Global.html",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP.DeclarationRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "VBASIC.DeclarationRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "XAML.DeclarationRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "ASXX.DeclarationRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "ASPX.DeclarationRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "UnusedMember.Local",
+              "fullDescription": {
+                "text": "Type member is never used"
+              },
+              "help": {
+                "text": "https://www.jetbrains.com/help/resharper/UnusedMember.Local.html"
+              },
+              "shortDescription": {
+                "text": "Type member is never used: Private accessibility"
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              },
+              "helpUri": "https://www.jetbrains.com/help/resharper/UnusedMember.Local.html",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP.DeclarationRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "VBASIC.DeclarationRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "XAML.DeclarationRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "UnusedType.Global",
+              "fullDescription": {
+                "text": "Type is never used"
+              },
+              "help": {
+                "text": "https://www.jetbrains.com/help/resharper/UnusedType.Global.html"
+              },
+              "shortDescription": {
+                "text": "Type is never used: Non-private accessibility"
+              },
+              "defaultConfiguration": {
+                "level": "note"
+              },
+              "helpUri": "https://www.jetbrains.com/help/resharper/UnusedType.Global.html",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP.DeclarationRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "VBASIC.DeclarationRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "XAML.DeclarationRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            }
+          ],
+          "taxa": [
+            {
+              "id": "ASPX",
+              "name": "Aspx"
+            },
+            {
+              "id": "ASPX.DeclarationRedundancy",
+              "name": "Redundancies in Symbol Declarations",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "ASPX",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ASXX",
+              "name": "HttpHandler or WebService"
+            },
+            {
+              "id": "ASXX.DeclarationRedundancy",
+              "name": "Redundancies in Symbol Declarations",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "ASXX",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "CSHARP",
+              "name": "C#"
+            },
+            {
+              "id": "CSHARP.CodeRedundancy",
+              "name": "Redundancies in Code",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "CSHARP.ConstraintViolation",
+              "name": "Constraints Violations",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "CSHARP.DeclarationRedundancy",
+              "name": "Redundancies in Symbol Declarations",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "VBASIC",
+              "name": "VB.NET"
+            },
+            {
+              "id": "VBASIC.ConstraintViolation",
+              "name": "Constraints Violations",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "VBASIC",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "VBASIC.DeclarationRedundancy",
+              "name": "Redundancies in Symbol Declarations",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "VBASIC",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "XAML",
+              "name": "XAML"
+            },
+            {
+              "id": "XAML.DeclarationRedundancy",
+              "name": "Redundancies in Symbol Declarations",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "XAML",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "originalUriBaseIds": {
+        "solutionDir": {
+          "uri": "file:///home/gebhardt/Desktop/teamscale-test/",
+          "description": {
+            "text": "Solution Directory"
+          }
+        }
+      },
+      "artifacts": [
+        {
+          "location": {
+            "uri": "Program.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "390808BCD8AB13635BC5634AE516B2B3",
+            "sha-1": "BC3C5F9B2723BFA710D63D842308E594E2FD7557",
+            "sha-256": "18E579BA71A69E93726FF78C1CCED3864DF15511112A61D74D03BA128AB08E81"
+          }
+        },
+        {
+          "location": {
+            "uri": "SecurityTest.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "841B54A98D17466F95B525DECEE8DB7F",
+            "sha-1": "6F76C1DBA711F5156406C2035E790F0E9BA4E6C7",
+            "sha-256": "E579CA1288DCAECDF7580525C9E617C569432B7E7B4233FF8C93702550B21D42"
+          }
+        }
+      ],
+      "columnKind": "utf16CodeUnits"
+    }
+  ]
+}
